@@ -1,0 +1,67 @@
+{
+	"0": {
+		"name": "Player",
+		"hp": 10,
+		"attacks": [
+			{
+				"name": "BASIC KNIFE ATTAACK!!",
+				"damage": 1,
+				"count": -1,
+				"animation": "knife",
+				"icon": "res://assets/icons/attacks/knife.png"
+			},
+			{
+				"id": 1,
+				"name": "KAMEHAMEHAAAA!",
+				"animation": "kamehameha",
+				"damage": 3,
+				"count": 1,
+				"icon": "res://assets/icons/attacks/kamehameha.png"
+			}
+
+		],
+		"animations": {
+			"idle": "default",
+			"attack": "knife",
+			"damage": "knife"
+		}
+	},
+	"1": [
+		{
+			"name": "Luffy",
+			"hp": 1,
+			"attacks": [
+				{
+					"name": "GUM GUM PISTOL!!!!!!",
+					"damage": 1,
+					"count": -1
+				}
+			],
+			"animations": {
+				"idle": "luffy_idle",
+				"damage": "luffy_damage",
+				"attack": "luffy_attack"
+			}
+		},
+		{
+			"name": "Goku",
+			"hp": 10,
+			"attacks": [
+				{
+					"name": "Normal Punch!!!!!!",
+					"damage": 1
+				},
+				{
+					"name": "Spirit Bomb",
+					"damage": 2,
+					"animation": "goku_spirit_bomb"
+				}
+			],
+			"animations": {
+				"idle": "goku_idle",
+				"damage": "goku_damage",
+				"attack": "goku_attack"
+			}
+		},
+	]
+}

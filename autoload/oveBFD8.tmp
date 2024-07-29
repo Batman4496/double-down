@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkwscful72ahm"]
+
+[ext_resource type="Script" path="res://autoload/overlay.gd" id="1_6p1sq"]
+[ext_resource type="Texture2D" uid="uid://d1wmmaagl8eae" path="res://assets/backgrounds/areas/area_1_dbz/overlays/2.png" id="2_iibjb"]
+
+[node name="Overlay" type="Node2D"]
+script = ExtResource("1_6p1sq")
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="TextureRect" type="TextureRect" parent="ParallaxBackground/ParallaxLayer2"]
+offset_right = 1152.0
+offset_bottom = 648.0
+mouse_filter = 2
+texture = ExtResource("2_iibjb")
+expand_mode = 2

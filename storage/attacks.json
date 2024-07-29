@@ -1,0 +1,10 @@
+[
+	{
+		"id": 1,
+		"name": "KAMEHAMEHAAAA!",
+		"animation": "kamehameha",
+		"damage": 3,
+		"count": 1,
+		"icon": "res://assets/icons/attacks/kamehameha.png"
+	}
+]

@@ -1,0 +1,20 @@
+[
+  {
+	"id": 1,
+	"background": "res://assets/backgrounds/areas/area_1_dbz/background.png",
+	"overlays": [
+		"res://assets/backgrounds/areas/area_1_dbz/overlays/1.png",
+		"res://assets/backgrounds/areas/area_1_dbz/overlays/2.png"
+	],
+	"rewards": [
+		{
+			"type": "health",
+			"data": 2,
+		},
+		{
+			"type": "attack",
+			"data": 1
+		}
+	]
+  }
+]

@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://dk0trmpoqmwmg"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_rpc2t"]
+font_size = 100
+
+[node name="Label" type="Node2D"]
+
+[node name="Text" type="Label" parent="."]
+offset_left = 144.0
+offset_top = 192.0
+offset_right = 355.0
+offset_bottom = 287.0
+rotation = -0.10786
+scale = Vector2(2.02071, 2.08002)
+text = "Test"
+label_settings = SubResource("LabelSettings_rpc2t")

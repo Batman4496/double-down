@@ -1,0 +1,134 @@
+[gd_scene load_steps=29 format=3 uid="uid://dxb1wysqpeu1m"]
+
+[ext_resource type="Texture2D" uid="uid://d2y1lrc4yvvb1" path="res://assets/sprites/player_animations/idle/1.png" id="1_fxqb7"]
+[ext_resource type="Script" path="res://nodes/player.gd" id="1_hn3nr"]
+[ext_resource type="Texture2D" uid="uid://84lktje8owka" path="res://assets/sprites/player_animations/idle/2.png" id="2_35wr8"]
+[ext_resource type="Texture2D" uid="uid://ba51h2xrms40e" path="res://assets/sprites/player_animations/idle/3.png" id="3_qm4b5"]
+[ext_resource type="Texture2D" uid="uid://3umvqdk80cbh" path="res://assets/sprites/player_animations/idle/4.png" id="4_u8ees"]
+[ext_resource type="Texture2D" uid="uid://cqoobsai6myrr" path="res://assets/sprites/player_animations/idle/5.png" id="5_wbdp3"]
+[ext_resource type="Texture2D" uid="uid://s5tuhsgk63ih" path="res://assets/sprites/player_animations/idle/6.png" id="6_8fc0l"]
+[ext_resource type="Texture2D" uid="uid://do3aif5ubspm3" path="res://assets/sprites/player_animations/idle/7.png" id="7_o24md"]
+[ext_resource type="Texture2D" uid="uid://j441the4pt8o" path="res://assets/sprites/player_animations/knife/1.jpg.png" id="8_3xa3r"]
+[ext_resource type="Texture2D" uid="uid://ct52wkvbs18ba" path="res://assets/sprites/player_animations/kamehameha/1.png" id="9_ox3tm"]
+[ext_resource type="Texture2D" uid="uid://caqxj638jxlp0" path="res://assets/sprites/player_animations/knife/2.jpg.png" id="9_yolq7"]
+[ext_resource type="Texture2D" uid="uid://dp0kycqyp2nkg" path="res://assets/sprites/player_animations/knife/3.jpg.png" id="10_gghaf"]
+[ext_resource type="Texture2D" uid="uid://dne4vp7nvv6yk" path="res://assets/sprites/player_animations/kamehameha/2.png" id="10_wihpu"]
+[ext_resource type="Texture2D" uid="uid://b2gv2cv7j60ox" path="res://assets/sprites/player_animations/knife/4.jpg.png" id="11_11883"]
+[ext_resource type="Texture2D" uid="uid://bdsirn0ngubni" path="res://assets/sprites/player_animations/kamehameha/3.png" id="11_vxofc"]
+[ext_resource type="Texture2D" uid="uid://byqrb8665eq0" path="res://assets/sprites/player_animations/knife/5.jpg.png" id="12_gxbhs"]
+[ext_resource type="Texture2D" uid="uid://dgecwloeumeuu" path="res://assets/sprites/player_animations/kamehameha/4.png" id="12_yji0h"]
+[ext_resource type="Texture2D" uid="uid://cc3kt8mpmgo8n" path="res://assets/sprites/player_animations/knife/6.jpg.png" id="13_fhl8b"]
+[ext_resource type="Texture2D" uid="uid://cg7t71jibrwdr" path="res://assets/sprites/player_animations/kamehameha/5.png" id="13_gth8w"]
+[ext_resource type="Texture2D" uid="uid://bf0hr1fgv0y6j" path="res://assets/sprites/player_animations/knife/7.jpg.png" id="14_frumt"]
+[ext_resource type="Texture2D" uid="uid://cl38swa1t48ab" path="res://assets/sprites/player_animations/kamehameha/6.png" id="14_ii313"]
+[ext_resource type="Texture2D" uid="uid://cn53u50aq665c" path="res://assets/sprites/player_animations/knife/8.jpg.png" id="15_ho3wb"]
+[ext_resource type="Texture2D" uid="uid://dckgsjvso5nc3" path="res://assets/sprites/player_animations/knife/9.jpg.png" id="16_oyul0"]
+[ext_resource type="Texture2D" uid="uid://bsdu7dk7wnbl6" path="res://assets/sprites/player_animations/knife/10.jpg.png" id="17_2muhg"]
+[ext_resource type="Texture2D" uid="uid://bqrln8kpqi0cp" path="res://assets/sprites/player_animations/knife/11.jpg.png" id="18_sodhq"]
+[ext_resource type="Texture2D" uid="uid://c4nexf78p4tdm" path="res://assets/sprites/player_animations/knife/12.jpg.png" id="19_tx65o"]
+[ext_resource type="Texture2D" uid="uid://qe0wun3aex01" path="res://assets/sprites/player_animations/knife/13.jpg.png" id="20_qnhoi"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5wysu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_fxqb7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_35wr8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_qm4b5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_u8ees")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_wbdp3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_8fc0l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_o24md")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_ox3tm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_wihpu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_vxofc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_yji0h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_gth8w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ii313")
+}],
+"loop": false,
+"name": &"kamehameha",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.1,
+"texture": ExtResource("8_3xa3r")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_yolq7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gghaf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_11883")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_gxbhs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_fhl8b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_frumt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_ho3wb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_oyul0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_2muhg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_sodhq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_tx65o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_qnhoi")
+}],
+"loop": false,
+"name": &"knife",
+"speed": 10.0
+}]
+
+[node name="Player" type="Node2D"]
+script = ExtResource("1_hn3nr")
+
+[node name="AnimatedSprite" type="AnimatedSprite2D" parent="."]
+position = Vector2(576, 224)
+scale = Vector2(1, 0.99115)
+sprite_frames = SubResource("SpriteFrames_5wysu")
+animation = &"kamehameha"
